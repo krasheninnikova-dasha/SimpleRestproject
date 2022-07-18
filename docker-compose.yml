@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    image: 'simple-rest-project:latest'
+    build:
+      context: .
+    container_name: simple-application
+    ports:
+      - "8080:8090"
