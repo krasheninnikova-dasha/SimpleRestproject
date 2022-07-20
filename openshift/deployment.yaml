@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-rest-project-deployment
+  name: simple-rest-project
+spec:
+  selector:
+    matchLabels:
+      app: simple-rest-project
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: simpler-est-project
+    spec:
+      containers:
+      - name: simple-rest-project
+        image: krasheninnikova/simple-rest-project
+        ports:
+        - containerPort: 8090
