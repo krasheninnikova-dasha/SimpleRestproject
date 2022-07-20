@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: simpler-est-project
+        app: simpler-rest-project
     spec:
       containers:
       - name: simple-rest-project
