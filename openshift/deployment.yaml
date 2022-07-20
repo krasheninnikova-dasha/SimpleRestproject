@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: simple-rest-project
-        image: krasheninnikova/simple-rest-project
+        image: simple-rest-project
         ports:
         - containerPort: 8090
